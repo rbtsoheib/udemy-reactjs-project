@@ -14,5 +14,3 @@ document.getElementById('root'),
 
 );
 
-
-
