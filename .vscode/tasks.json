@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "c:\\Users\\DELL LATITUDE E7440\\OneDrive\\Bureau\\work repostories\\reactjs-course-destination\\udemy-reactjs-project",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
