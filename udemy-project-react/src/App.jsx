@@ -1,19 +1,17 @@
-import React from "react";
-import "./App.css"
+import React, { useState } from "react";
+import Counter from "./Components/Counter";
+import Header from "./Components/Header";
+import "./App.css";
 
-function App(){
-
-return (
-
-
-<>
-
-<h1> HELLO WORLD </h1>
-
-</>
-
-
-);
+function App() {
+  return (
+    <>
+      <div className="main">
+        <Header />
+        <Counter />
+      </div>
+    </>
+  );
 }
 
 export default App;
