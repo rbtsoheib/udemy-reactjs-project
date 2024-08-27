@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Counter from "./Components/Counter";
 import Header from "./Components/Header";
 import "./App.css";
