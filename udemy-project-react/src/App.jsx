@@ -1,17 +1,25 @@
 import React from "react";
-import Counter from "./Components/Counter";
+import Home from "./Components/Home";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import About from "./Components/About";
 import Header from "./Components/Header";
-import "./App.css";
+import './App.css'
 
 function App() {
-  return (
+
+return (  
+
     <>
-      <div className="main">
-        <Header />
-        <Counter />
-      </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<> <Header/> <Home/></>} />
+    <Route path="/About" element={<><Header/> <About/></>} />
+    </Routes>
+    </BrowserRouter>
     </>
-  );
+
+); 
+
 }
 
 export default App;

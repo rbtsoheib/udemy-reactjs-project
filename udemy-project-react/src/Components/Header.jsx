@@ -1,28 +1,22 @@
 import React from "react";
-import "./Counter.css"
+import { Link } from "react-router-dom";
+import "./Counter.css";
 
 function Header() {
-
-    return (
-
-        <>
-
-        <div className="main-header">
-
-            <ul> 
-
-                <li>home</li>
-                <li>Counter</li>
-                <li>about</li>
-                <li>settings</li>
-
-            </ul>
-
-        </div>
-
-        </>
-
-    );
+  return (
+    <>
+      <div className="main-header">
+        <ul>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/About">
+            <li>About</li>
+          </Link>
+        </ul>
+      </div>
+    </>
+  );
 }
 
 export default Header;
